@@ -1,0 +1,132 @@
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-image: url("https://images.pexels.com/photos/10778240/pexels-photo-10778240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+}
+
+.main-image {
+    height: 500px;
+}
+
+.title {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h1, h3 {
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6.main {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(-90deg, rgba(222,224,233,1) 0%, rgba(166,180,204,1) 35%, rgba(62,86,123,1) 100%);
+}
+
+h6.brunico {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(-90deg, rgb(205,225,230) 0%, rgb(150,195,204) 35%, rgb(52,68,62) 100%);
+}
+
+h6.cortina {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(-90deg, rgb(207,185,161) 0%, rgb(68,59,55) 100%);
+}
+
+h6.livigno {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(-90deg, rgb(154,144,143) 0%, rgb(35,35,42) 100%);
+}
+
+h6.campiglio {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(-90deg, rgb(229,231,239) 0%, rgb(127,141,163) 35%, rgb(49,46,45) 100%);
+}
+
+h6.san-candido {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(-90deg, rgb(169,162,176) 0%, rgb(97,68,63) 35%, rgb(31,37,45) 100%);
+}
+
+.luoghi-correlati {
+    list-style: none;
+    padding: 0;
+}
+
+.luoghi-correlati > li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 5px solid #DFDFDF;
+}
+
+.luoghi-correlati > li > a {
+    text-decoration: none;
+}
+
+.luoghi-correlati > li > a:visited {
+    color: rgba(62,86,123,1);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    height: 4em;
+    text-align: center;
+}
+
+.footer > h3 > a {
+    text-decoration: none;
+    color:white;
+    font-style: normal;
+}
+
+.footer > h3 > a:hover {
+    color: rgb(197, 197, 197);
+}
